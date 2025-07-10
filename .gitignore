@@ -7,11 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+faq-accordion-figma
+faq-accordion-main
 node_modules
 dist-ssr
 *.local
-.faq-accordion-figma
-.faq-accordion-main
+
 
 # Editor directories and files
 .vscode/*

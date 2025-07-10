@@ -1,5 +1,5 @@
 function App() {
-	return <h1>Hola Leo</h1>;
+	return <h1 className='font-work-sans'>Hola Leo</h1>;
 }
 
 export default App;

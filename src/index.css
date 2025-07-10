@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
+@plugin "daisyui" {
+	themes: light --default;
+	root: ':root';
+	include: ;
+	exclude: ;
+	prefix: ;
+	logs: true;
+}
+
+@theme {
+	--color-white: #ffffff;
+	--color-black: #000000;
+	--color-purple950: #301534;
+	--color-purple600: #8b6990;
+	--color-purple100: #f8eeff;
+	--color-violet600: #ad28eb;
+
+	--font-work-sans: 'Work Sans', sans-serif;
+}
