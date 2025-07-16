@@ -19,3 +19,7 @@
 
 	--font-work-sans: 'Work Sans', sans-serif;
 }
+
+@utility divider {
+	@apply divide-purple-600;
+}
