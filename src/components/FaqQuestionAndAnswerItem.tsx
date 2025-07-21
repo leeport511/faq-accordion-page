@@ -38,3 +38,6 @@ export const FaqQuestionAndAnswerItem = ({
 		</div>
 	);
 };
+
+// TODO: README
+// TODO: create repo in github and upload to netlify.
