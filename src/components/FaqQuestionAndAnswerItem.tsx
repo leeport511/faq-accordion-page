@@ -16,7 +16,7 @@ export const FaqQuestionAndAnswerItem = ({
 					className='flex items-center justify-between w-full cursor-pointer'
 					onClick={onToggle}
 				>
-					<h4 className='text-purple950 text-left font-semibold text-base transition-all ease-in-out hover:text-violet600'>
+					<h4 className='text-purple950 text-left font-semibold text-base md:text-lg transition-all ease-in-out hover:text-violet600'>
 						{question}
 					</h4>
 					<img
@@ -27,7 +27,7 @@ export const FaqQuestionAndAnswerItem = ({
 				</button>
 			</div>
 			{!isActive ? null : (
-				<p className='text-sm text-purple600 leading-6'>
+				<p className='text-sm md:text-base text-purple600 leading-6'>
 					{answer}
 				</p>
 			)}
