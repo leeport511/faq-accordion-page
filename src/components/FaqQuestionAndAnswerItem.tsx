@@ -1,6 +1,6 @@
 import IconPlus from '../../public/assets/images/icon-plus.svg';
 import type { FaqQuestionAndAnswerItemProps } from '../interfaces/interfaces';
-// import IconMinus from '../../public/assets/images/icon-minus.svg';
+import IconMinus from '../../public/assets/images/icon-minus.svg';
 
 export const FaqQuestionAndAnswerItem = ({
 	question,
@@ -16,11 +16,11 @@ export const FaqQuestionAndAnswerItem = ({
 					className='flex items-center justify-between w-full cursor-pointer'
 					onClick={onToggle}
 				>
-					<h4 className='text-purple950 text-left transition-all ease-in-out'>
+					<h4 className='text-purple950 text-left font-semibold text-base transition-all ease-in-out hover:text-violet600'>
 						{question}
 					</h4>
 					<img
-						src={IconPlus}
+						src={!isActive ? IconPlus : IconMinus}
 						alt='Plus'
 						className='w-[30px] h-[30px] ml-6'
 					/>
