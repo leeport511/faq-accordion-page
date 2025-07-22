@@ -16,9 +16,9 @@ export const FaqQuestionAndAnswerItem = ({
 					className='flex items-center justify-between w-full cursor-pointer'
 					onClick={onToggle}
 				>
-					<h4 className='text-purple950 text-left font-semibold text-base md:text-lg transition-all ease-in-out hover:text-violet600'>
+					<h2 className='text-purple950 text-left font-semibold text-base md:text-lg transition-all ease-in-out hover:text-violet600'>
 						{question}
-					</h4>
+					</h2>
 					<img
 						src={!isActive ? IconPlus : IconMinus}
 						alt='Plus'
@@ -38,6 +38,3 @@ export const FaqQuestionAndAnswerItem = ({
 		</div>
 	);
 };
-
-// TODO: README
-// TODO: create repo in github and upload to netlify.
